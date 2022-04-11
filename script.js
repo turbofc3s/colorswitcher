@@ -9,7 +9,6 @@ the background color of the BODY to the color selected in the
 dropdown
 */
 
-let function colorFunction(value) {
-		document.body.style.backgroundColor = 'value';
-
+function colorFunction(value) {
+		document.body.style.backgroundColor = value;
 }
